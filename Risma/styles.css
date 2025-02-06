@@ -1,0 +1,33 @@
+css
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Section */
+#header {
+  background: linear-gradient(to bottom, #6c757d, #343a40);
+  color: white;
+  padding: 100px 0;
+}
+
+/* Profile Image */
+#header img {
+  border: 5px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Titles */
+h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 15px 0;
+}

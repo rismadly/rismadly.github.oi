@@ -1,0 +1,10 @@
+Membuat Layout Tabel dengan CSS :
+Tabel adalah elemen penting dalam desain web untuk menampilkan data dalam format yang rapi dan mudah dibaca.
+Dengan menggunakan CSS, Anda dapat membuat layout tabel yang lebih fleksibel dan responsif.
+
+Langkah-Langkah Membuat Layout Tabel dengan CSS :
+1. Buat Struktur Tabel: Mulai dengan membuat struktur tabel menggunakan HTML, yang terdiri dari elemen table, tr (baris), dan td (sel).
+2. Tentukan Lebar dan Tinggi Tabel: Gunakan properti width dan height untuk menentukan ukuran tabel.
+3. Atur Spasi dan Padding: Gunakan properti border-spacing dan padding untuk mengatur spasi antara sel dan padding dalam sel.
+4. Buat Border dan Warna Latar: Gunakan properti border dan background-color untuk membuat border dan warna latar tabel.
+5. Atur Align dan Valign: Gunakan properti text-align dan vertical-align untuk mengatur perataan teks dalam sel.
