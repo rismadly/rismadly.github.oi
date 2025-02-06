@@ -1,0 +1,65 @@
+Jenis-Jenis CSS Selector
+CSS selector digunakan untuk memilih elemen HTML yang ingin diberi gaya.
+Berikut adalah jenis-jenis CSS selector:
+
+1. Selector Tag (Tag Selector)
+    Selector tag digunakan untuk memilih elemen HTML berdasarkan nama tag-nya.
+    Contoh:
+        p {
+            warna: biru;
+            }
+    Selector di atas akan memilih semua elemen p dan memberinya warna biru.
+
+2. Selector Kelas (Class Selector)
+    Selector kelas digunakan untuk memilih elemen HTML berdasarkan kelas yang diberikan.
+    Contoh:
+        .kotak {
+                lebar: 200px;
+                tinggi: 100px;
+                latar-belakang: merah;
+                }
+    Selector di atas akan memilih semua elemen yang memiliki kelas kotak dan memberinya gaya yang ditentukan.
+
+3. Selector ID (ID Selector)
+    Selector ID digunakan untuk memilih elemen HTML berdasarkan ID yang unik.
+    Contoh:
+        #header {
+                warna: putih;
+                latar-belakang: hitam;
+                    }
+    Selector di atas akan memilih elemen yang memiliki ID header dan memberinya gaya yang ditentukan.
+
+4. Selector Atribut (Attribute Selector)
+    Selector atribut digunakan untuk memilih elemen HTML berdasarkan atribut yang dimiliki.
+    Contoh:
+        input[type="text"] {
+                lebar: 200px;
+                tinggi: 30px;
+                }
+    Selector di atas akan memilih semua elemen input yang memiliki atribut type dengan nilai text dan memberinya gaya yang ditentukan.
+
+5. Selector Pseudo (Pseudo Selector)
+    Selector pseudo digunakan untuk memilih elemen HTML berdasarkan kondisi tertentu.
+    Contoh:
+        a:hover {
+            warna: merah;
+            }
+    Selector di atas akan memilih semua elemen a yang sedang dihover dan memberinya warna merah.
+
+6. Selector Kombinasi (Combinator Selector)
+    Selector kombinasi digunakan untuk memilih elemen HTML berdasarkan kombinasi dari selector lain.
+    Contoh:
+        div > p {
+        warna: biru;
+        }
+    Selector di atas akan memilih semua elemen p yang merupakan anak langsung dari elemen div dan memberinya warna biru.
+
+7. Selector Universal (Universal Selector)
+    Selector universal digunakan untuk memilih semua elemen HTML.
+    Contoh:
+        * {
+            margin: 0;
+            padding: 0;
+            }
+    Selector di atas akan memilih semua elemen HTML dan memberinya margin dan padding 0.
+    Dengan memahami jenis-jenis CSS selector, Anda dapat membuat gaya yang lebih spesifik dan efektif untuk elemen HTML Anda.
